@@ -8,7 +8,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://i.pinimg.com/564x/57/93/e3/5793e329f67312e8f21abc1f044249ad.jpg);
 }
 .card{
     display: flex;
@@ -20,14 +19,12 @@ body{
 }
 h2{
     margin-bottom: 30px;
-    /* background-color: rgb(153, 144, 144); */
     padding: 10px 20px 10px 20px;
     border-radius: 30px;
     color: rgb(78, 77, 77);
     text-shadow: 1px 1px 5px rgb(128, 188, 199);
-    /* backface-visibility: visible; */
     border: 1px solid rgb(43, 105, 121);
-    box-shadow: 1px 1px 7px white;
+    background-color: white;
 }
 form{
     margin: 15px;
@@ -46,11 +43,10 @@ input{
     color: black;
     border-radius:10px ;
     box-shadow: none;
-    background: none;
 }
 button{
     margin-bottom: 20px;
-    background: scroll;
+    background-color: white;
     margin-top: 20px;
     padding: 10px;
     border: none;
@@ -61,12 +57,12 @@ button{
     box-shadow: 1px 1px 7px black;
 }
 button:hover{
-    /* background-color: rgb(165, 217, 238); */
+    background-color: rgb(80, 177, 201);
     color: black;
     box-shadow: 1px 1px 7px black;
 }
 button:active{
-    background-color: rgb(85, 128, 145);
+    background-color: rgb(80, 177, 201);
     color: white;
 }
 a{
